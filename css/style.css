@@ -128,9 +128,6 @@ textarea{
 section{
 	flex-direction: column;
 }
-section article p{
-	widht:100%;
-	padding: 0;}
   section .article-image{
 		width: 100%;
 
