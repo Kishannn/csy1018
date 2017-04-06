@@ -118,3 +118,31 @@ textarea{
 	width: 450px;
 	margin-bottom: 10px;
 }
+@media screen and (max-width:700px)  {
+	section.article-image p img{
+		max-width: 100%; flex-direction: column;
+}
+.menubar ul{
+	flex-direction: column;
+}
+section{
+	flex-direction: column;
+}
+section article p{
+	widht:100%;
+	padding: 0;}
+  section .article-image{
+		width: 100%;
+
+	}
+	section article{
+		width: 100%;
+	}
+	footer{
+		flex-direction: column;
+	}
+	footer article{
+		width: 100%;
+	}
+
+}
