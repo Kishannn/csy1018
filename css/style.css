@@ -1,13 +1,22 @@
 body{
-	font-size: 15px; background: grey; font-family: cursive;margin:0;
-	line-height: 28px;height:400px;
+	font-size: 15px;
+	background: grey;
+	font-family: cursive;
+	margin:0;
+	line-height: 28px;
+	height:400px;
 }
 h2,h3,h4,h5,h6,p,ul{
-	margin: 0;padding: 0;
+	margin: 0;
+	padding: 0;
 }
 header{
-	display: flex;flex-direction: row;
-	background: lightgrey; text-align: center;padding: 2%;color: red;
+	display: flex;
+	flex-direction: row;
+	background: lightgrey;
+	text-align:
+	center;padding: 2%;
+	color: red;
 	margin-bottom: 0.3%;
 }
 header h1{
@@ -17,43 +26,62 @@ header h1{
 header img{
 	width: 90px;
 	height: 90px;
-}
+
 }
 .menubar{
-	background: red;padding: 0.1%;margin-bottom: 0.5%;
+	background: grey;
+	padding: 0.1%;
+	margin-bottom: 0.5%;
 }
 .menubar ul{
-	display: flex; list-style: none;
+	display: flex;
+	list-style: none;
 }
 .menubar ul li{
-background: black;margin:1%; padding: 1%; background: lightblue;flex-grow: 1;
-	text-align: center;
+background: black;
+margin:1%;
+padding: 1%;
+background: lightblue;
+flex-grow: 1;
+text-align: center;
 }
 .menubar ul li:hover{
-	background: black; border-radius:5px;
+	background: black;
+	border-radius:5px;
 }
 .menubar ul li a{
 	text-decoration: none;
 }
 .menubar ul li:hover a{
-	color:red;text-decoration: underline;
+	color:red;
+	text-decoration: underline;
 }
 .menubar ul li a{color:black;}
 section{
-	background: lightgrey;padding: 0.5%;display: flex;flex-flow: row nowrap;
+	background: lightgrey;
+	padding: 0.5%;
+	display: flex;
+	flex-flow: row nowrap;
 	justify-content: space-around;
 }
 section form{
-		display: flex;flex-direction: column;
+		display: flex;
+		flex-direction: column;
 }
 section article{
-	background:  lightblue;width: 45%;padding: 0.5%;
+	background:  lightblue;
+	width: 45%;padding: 0.5%;
 }
 section article h3{
-	background: black;color: red;padding: 2% 3%; text-align: center;
+	background: black;
+	color: red;
+	padding: 2% 3%;
+	text-align: center;
 }
 section article p{
-	margin-top: 1%;text-align: justify; font-size: 120%;
+	margin-top: 1%;
+	text-align: justify;
+	font-size: 120%;
 }
 section article.article-image p{
 	text-align: center;
@@ -62,12 +90,25 @@ section article.article-image p img{
 	width: 60%;height: 50%;
 }
 footer{
-  background:lightgrey; padding:1%; display:flex;flex-flow:row nowrap;justify-content: space-around;}
+  background:lightgrey;
+	padding:1%;
+	display:flex;
+	flex-flow:row nowrap;
+	justify-content: space-around;}
 footer article{
-  background:grey;padding: 0.7%;width:50%;
+  background:grey;
+	padding: 0.7%;
+	width:50%;
 }
-footer article h3{background: lightgrey;color:red;padding:0.5%;}
-footer article p{background: lightblue;color:black;}
+footer article h3{
+	background: lightgrey;
+	color:red;
+	padding:0.5%;
+}
+footer article p{
+	background: lightblue;
+	color:black;
+}
 input[type="submit"]{
 	width:80px;
 }
